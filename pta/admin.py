@@ -2,8 +2,7 @@
 from django.contrib import admin
 
 from .models import Teacher, ParentalUnit, Homework, WishlistItem, \
-    Activity, TodoItem, TodoItemAssignedTo, Message, MessageTo
-
+    Activity, TodoItem, Message
 
 class TeacherModel(admin.ModelAdmin):
     def firstname(self, instance):
@@ -26,17 +25,19 @@ class ParentalUnitModel(admin.ModelAdmin):
 class HomeworkModel(admin.ModelAdmin):
     pass
 
-class TodoAssigneesInline(admin.StackedInline):
-    model = TodoItemAssignedTo
+# class TodoAssigneesInline(admin.StackedInline):
+#     model = TodoItemAssignedTo
 
 class TodoItemAdmin(admin.ModelAdmin):
-    inlines = [TodoAssigneesInline]
-
-class MessageToInline(admin.StackedInline):
-    model = MessageTo
+    pass
+#     inlines = [TodoAssigneesInline]
+#
+# class MessageToInline(admin.StackedInline):
+#     model = MessageTo
 
 class MessageAdmin(admin.ModelAdmin):
-    inlines = [MessageToInline]
+    readonly_fields = ('dateOf',)
+    # inlines = [MessageToInline]
 
 admin.site.register(Teacher, TeacherModel)
 admin.site.register(ParentalUnit, ParentalUnitModel)
