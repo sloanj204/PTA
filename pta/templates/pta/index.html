@@ -21,8 +21,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="topNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                        <li><a data-toggle="modal" href="#loginModal"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                        <li><a data-toggle="modal" href="#registerModal"><span class="glyphicon glyphicon-user"></span> Register</a></li>
                         <!--<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
                         </li>
                         <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>-->
@@ -81,6 +81,50 @@
         <button type="button" class="btn btn-primary btn-lg">Learn more</button>
         -->
     </div>
+
+    <!-- login Modal -->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- register Modal -->
+    <div id="registerModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 </div>
 
 {% endblock %}
