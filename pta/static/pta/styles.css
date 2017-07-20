@@ -1,0 +1,20 @@
+div#logoRow h1 {
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+div#mainNavigationRow nav ul, h2, h3, h4, .sideHeader
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("/static/pta/SunnydaleHighSchool.jpg");
+    background-size: cover;
+    min-height: 300px;
+    /* Image in the center of container */
+    background-position: center center;
+}

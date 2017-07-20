@@ -1,0 +1,86 @@
+{% extends "pta/base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+    <header>
+
+        <div id="topHeaderRow">
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-text">Welcome to Collaborate.</div>
+                    <!--, <a href="#">Login</a> or <a href="#">Create new
+                        account</a></div>-->
+                </div>
+                <div class="collapse navbar-collapse" id="topNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                        <!--<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>-->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="logoRow">
+            <!--
+            <form action="http://www.randyconnolly.com/tests/process.php" class="form-inline">
+                <div class='btn-toolbar pull-right'>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            -->
+            <h1>Collaborate!</h1>
+            <h4>A website for Sunnydale Elementary School parents and teachers.</h4>
+        </div>  <!-- end logoRow -->
+
+        <!--
+        <div id="mainNavigationRow">
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a href="assign2-index.html">Home</a></li>
+                    <li class="active"><a href="assign2-about.html">About Us</a></li>
+                    <li><a href="assign2-work.html">Art Works</a></li>
+                    <li><a href="assign2-artists.html">Artists</a></li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Specials
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Special 1</a></li>
+                            <li><a href="#">Special 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>  -->
+
+    </header>
+
+    <div class="jumbotron">
+        <!--
+        <h3>About Us</h3>
+        <p>This assignment was created by <em>Suat Iskender</em>.</p>
+        <p>It was created for CS4720 at Kennesaw State University.</p>
+        <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+        -->
+    </div>
+</div>
+
+{% endblock %}
