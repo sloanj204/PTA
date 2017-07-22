@@ -1,0 +1,45 @@
+{% extends "pta/base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+  <form method="post">
+    {% csrf_token %}
+
+      <div class="row">
+          <div class="col-sm-4">
+          </div>
+          <div class="col-sm-4">
+              <h2>Login</h2>
+              {% if form.errors %}
+                  <p>Please enter a correct username and password.</p>
+              {% endif %}
+              <div class="form-group">
+                  <input type="text" class="form-control" id="{{ form.username.id_for_label }}"
+                         name="{{ form.username.html_name }}" placeholder="Enter username...">
+              </div>
+              <div class="form-group">
+                  <input type="text" class="form-control" id="{{ form.password.id_for_label }}"
+                         name="{{ form.password.html_name }}" placeholder="Enter password...">
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block">Login</button>
+              </div>
+              <div class="form-group text-right">
+                  <a href="#">Forgot Password?</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+      </div>
+  </form>
+{% endblock %}
+
+{#{% block content %}#}
+{#  <h2>Login</h2>#}
+{#  <form method="post">#}
+{#    {% csrf_token %}#}
+{#    {{ form.as_p }}#}
+{#    <button type="submit">Login</button>#}
+{#  </form>#}
+{#{% endblock %}#}
