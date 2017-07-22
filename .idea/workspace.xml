@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca7b7f24-a98b-4a32-98e3-cebe4ada36ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pta/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pta/templates/pta/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pta/templates/pta/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proj1/settings.py" afterPath="$PROJECT_DIR$/proj1/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proj1/urls.py" afterPath="$PROJECT_DIR$/proj1/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/static/pta/styles.css" afterPath="$PROJECT_DIR$/pta/static/pta/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/templates/pta/base.html" afterPath="$PROJECT_DIR$/pta/templates/pta/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/templates/pta/index.html" afterPath="$PROJECT_DIR$/pta/templates/pta/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/urls.py" afterPath="$PROJECT_DIR$/pta/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/views.py" afterPath="$PROJECT_DIR$/pta/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/templates/pta/home.html" afterPath="$PROJECT_DIR$/pta/templates/pta/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pta/templates/pta/login.html" afterPath="$PROJECT_DIR$/pta/templates/pta/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +70,28 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pta/templates/pta/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pta/static/pta/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pta/templates/pta/main_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -85,8 +100,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pta/templates/pta/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="407">
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -114,18 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pta/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pta/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,21 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pta/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pta/templates/pta/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#3989#3996#1#HTML" expanded="true" />
                 <element signature="e#5613#5620#1#HTML" expanded="true" />
@@ -164,8 +157,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pta/templates/pta/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="254">
+              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -196,16 +189,16 @@
         <option value="$PROJECT_DIR$/pta/management/commands/clear_data.py" />
         <option value="$PROJECT_DIR$/pta/management/commands/_sample_data2.py" />
         <option value="$PROJECT_DIR$/pta/templates/pta/indexl.html" />
-        <option value="$PROJECT_DIR$/pta/static/pta/styles.css" />
         <option value="$PROJECT_DIR$/pta/templates/pta/index.html" />
         <option value="$PROJECT_DIR$/pta/forms.py" />
-        <option value="$PROJECT_DIR$/pta/templates/pta/home.html" />
-        <option value="$PROJECT_DIR$/pta/templates/pta/login.html" />
-        <option value="$PROJECT_DIR$/pta/templates/pta/base.html" />
         <option value="$PROJECT_DIR$/proj1/settings.py" />
         <option value="$PROJECT_DIR$/pta/views.py" />
         <option value="$PROJECT_DIR$/pta/urls.py" />
         <option value="$PROJECT_DIR$/proj1/urls.py" />
+        <option value="$PROJECT_DIR$/pta/templates/pta/login.html" />
+        <option value="$PROJECT_DIR$/pta/templates/pta/base.html" />
+        <option value="$PROJECT_DIR$/pta/static/pta/styles.css" />
+        <option value="$PROJECT_DIR$/pta/templates/pta/home.html" />
       </list>
     </option>
   </component>
@@ -602,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500593345840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="starting ui over.  added in login page.">
+      <created>1500740284593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500740284593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -680,7 +680,8 @@
     <MESSAGE value="Started Home page with login / register." />
     <MESSAGE value="Added login and register modal stubs.  &#10;Added a few files to the repository that had been missed (jumbotron image and manage.py scripts in the management\commands subdirectory)" />
     <MESSAGE value="updated login modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated login modal" />
+    <MESSAGE value="starting ui over.  added in login page." />
+    <option name="LAST_COMMIT_MESSAGE" value="starting ui over.  added in login page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,13 +690,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pta/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pta/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -875,13 +869,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pta/templates/pta/indexl.html" />
     <entry file="file://$PROJECT_DIR$/pta/static/pta/whistler-cropped.jpg" />
-    <entry file="file://$PROJECT_DIR$/pta/static/pta/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pta/static/pta/SunnydaleHighSchool.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -908,7 +895,7 @@
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,33 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pta/templates/pta/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pta/templates/pta/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
-          <folding>
-            <element signature="e#3989#3996#1#HTML" expanded="true" />
-            <element signature="e#5613#5620#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pta/templates/pta/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -978,10 +938,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pta/templates/pta/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="e#3989#3996#1#HTML" expanded="true" />
+            <element signature="e#5613#5620#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pta/templates/pta/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pta/templates/pta/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pta/static/pta/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pta/templates/pta/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pta/templates/pta/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>

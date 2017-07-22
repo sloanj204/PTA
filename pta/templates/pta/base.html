@@ -20,20 +20,52 @@
 <body>
 <div class="container">
     <header>
-        <h1>Django Simple Login</h1>
-        {% if user.is_authenticated %}
-            Hi {{ user.username }}!
-            <a href="{% url 'logout' %}">logout</a>
-        {% else %}
-            <a href="{% url 'login' %}">login</a>
-        {% endif %}
+        <div id="topHeaderRow">
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-text">
+                        {% if user.is_authenticated %}
+                            Welcome to Collaborate, {{ user.username }}.
+                        {% else %}
+                            Welcome to Collaborate.  Please log in.
+                        {% endif %}
+                    </div>
+                    <!--, <a href="#">Login</a> or <a href="#">Create new
+                        account</a></div>-->
+                </div>
+                <div class="collapse navbar-collapse" id="topNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        {% if user.is_authenticated %}
+                            <li><a href="{% url 'logout' %}"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+                        {% else %}
+                            <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Create an account</a></li>
+                        {% endif %}
+                        <!--<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>-->
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <hr>
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
-    <hr>
+
+    {% if user.is_authenticated %}
+        <div id="logoRow">
+            <h1>Collaborate!</h1>
+            <h4>A website for Sunnydale Elementary School parents and teachers.</h4>
+        </div>  <!-- end logoRow -->
+    {% endif %}
+
+    {% block content %}
+    {% endblock %}
+
 </div>
 </body>
 </html>
