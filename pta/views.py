@@ -1,9 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from pta.forms import SignUpForm
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from .models import Teacher, ParentalUnit, TeamMember
+from django.views import generic
+from django.utils.decorators import method_decorator
 
 # Create your views here.
 from django.http import HttpResponse
@@ -11,6 +16,39 @@ from django.http import HttpResponse
 # @login_required()
 # def homepage(request):
 #      return render(request, 'pta/home.html')
+
+# @login_required()
+# def meettheteam(request):
+#      return render(request, 'pta/meettheteam.html')
+
+@method_decorator(login_required, name='dispatch')
+class AboutTeamView(generic.ListView):
+    model = TeamMember
+    template_name = 'pta/meettheteam.html'
+
+
+def signup(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+        if form.is_valid():
+            theuser = form.save()
+            teach = form.cleaned_data.get('teacher')
+
+            parentalunit = ParentalUnit(
+                user=theuser,
+                teacher=teach,
+            )
+            parentalunit.save()
+#           ParentalUnit.objects.create(user=theuser, teacher=teach)
+
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect('homepage')
+    else:
+        form = SignUpForm()
+    return render(request, 'pta/signup.html', {'form': form})
 
 
 def startpage(request):
