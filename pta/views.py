@@ -8,14 +8,14 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 from django.http import HttpResponse
 
-@login_required()
-def homepage(request):
-     return render(request, 'pta/home.html')
+# @login_required()
+# def homepage(request):
+#      return render(request, 'pta/home.html')
 
 
-# def startpage(request):
-#      return render(request, 'pta/index.html')
-#    return HttpResponse("Hello, world. You're at the PTA index.")
+def startpage(request):
+     return render(request, 'pta/index.html')
+     return HttpResponse("Hello, world. You're at the PTA index.")
 
 #def startpage(request):
 #     print("login_user", request)
